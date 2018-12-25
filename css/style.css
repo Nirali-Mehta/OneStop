@@ -2396,6 +2396,39 @@ border-left: solid 5px #1b2e44;
  text-transform: uppercase;
 
 }
+
+.styledivb{
+background:#1b2e44;
+padding: 2%;
+border: solid 5px white;
+}
+
+ .dropdown-content {
+  display: none;
+    position: absolute;
+    background-color: #1b2e44d6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 0px 9px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 /*----------------------------------------
  .End CSS
 ----------------------------------------*/
